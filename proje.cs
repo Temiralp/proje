@@ -50,4 +50,17 @@ class Program
         PrintTeacherInfo();
         PrintStudentInfo();
     }
+    static void Main2()
+    {
+        // Öğretmen ve öğrenci bilgilerini atıyoruz
+        teacher1Name = "Ahmet";
+        teacher1Subject = "Matematik";
+        student1Name = "Ayşe";
+        student1Major = "Bilgisayar Mühendisliği";
+        student1Advisor = teacher1Name;  // Danışman olarak öğretmeni atıyoruz
+
+        // Bilgileri yazdırıyoruz
+        PrintTeacherInfo();
+        PrintStudentInfo();
+    }
 }
